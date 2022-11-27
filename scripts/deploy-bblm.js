@@ -13,9 +13,9 @@ async function main() {
   console.log('Deploying contracts with the account: ' + deployer.address);
   console.log('Token holder: ' + tokenHolder.address);
 
-  trst = deployContract("TRST0", "Cool TRST", "TRSTC", deployer.address, 1000)
+  trst = deployContract("BBLM0", "BBLM0", deployer.address, 317000000)
 
-  rate = 1000000
+  rate = 0.000000000000001 //1.000 BBLM for 1 ETH
   deployContract("TRST0Crowdsale", rate, deployer.address, tokenHolder.address, trst)
 
   deployContract("TRST0Payback", trst, rate)
