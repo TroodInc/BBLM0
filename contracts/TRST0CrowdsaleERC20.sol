@@ -4,7 +4,7 @@ pragma solidity ^0.8.7;
 import "./AllowanceCrowdsaleERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract TRST0CrowdsaleERC20 is AllowanceCrowdsaleERC20 {
+contract BBLM0CrowdsaleERC20 is AllowanceCrowdsaleERC20 {
     uint256 private _initialSupply;
     uint256 private _tokenSold;
 
