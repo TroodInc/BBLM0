@@ -15,7 +15,7 @@ async function main() {
 
   trst = deployContract("BBLM0", "BBLM0", deployer.address, 380000000)
 
-  rate = 0.001
+  rate = 1000000000000000
   buyToken = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"; //USDC
   deployContract("TRST0CrowdsaleERC20", rate, deployer.address, tokenHolder.address, trst, buyToken)
 
